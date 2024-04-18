@@ -1,4 +1,4 @@
-gobierno_local,sitio,código_de_estación,latitud,longitud,Poblacion_partido,Personas_con_cloacas,Actividad_principal,"Agricultura, ganadería, caza y silvicultura",Pesca explotación de criaderos de peces y granjas piscícolas y servicios conexos,Explotación de minas y canteras,Industria Manufacturera,"Electricidad, gas y agua",Construcción,Servicios
+gobierno_local,sitio,codigo,latitud,longitud,Poblacion_partido,Personas_con_cloacas,Actividad_principal,"Agricultura, ganadería, caza y silvicultura",Pesca explotación de criaderos de peces y granjas piscícolas y servicios conexos,Explotación de minas y canteras,Industria Manufacturera,"Electricidad, gas y agua",Construcción,Servicios
 Tigre,Canal Villanueva y río Luján,TI004,-34.408.061,-58.590.839,446.949,144.834,"""La industria metalúrgica y la actividad maderera""",4,4,4,4,5,3,4
 Tigre,Río Luján y arroyo Caraguatá,TI006,-34.384.169,-58.632.511,446.949,144.834,"""La industria metalúrgica y la actividad maderera""",4,4,4,4,5,3,4
 Tigre,Río Capitán y río San Antonio,TI008,-34.375.561,-58.558.619,446.949,144.834,"""La industria metalúrgica y la actividad maderera""",4,4,4,4,5,3,4
