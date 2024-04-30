@@ -1,9 +1,3 @@
-<style>
-  p {
-    text-align: justify;
-  }
-</style>
-
 # **Mentoria-Diplodatos-2024**
 
 # **Conexiones Transparentes: Descubriendo Relaciones Cruciales para la Calidad del Agua en el Río de La Plata**
