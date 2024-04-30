@@ -4,12 +4,14 @@
 
 ## Descripción y Objetivos propuestos: 
 
-En este proyecto se propone estudiar un dataset que contiene información de monitoreo de agua para diferentes periodos y estaciones a lo largo de la costa del Rio de La Plata. El objetivo es encontrar las interrelaciones entre variables, así como la sensibilidad de las mismas, además de tratar de encontrar posibles patrones relacionados a la estacionalidad y las características de las poblaciones circundantes a la estación monitoreada. Esto puede ser valioso a la hora de tomar decisiones gubernamentales para evitar y penar la contaminación protegiendo así la calidad de nuestras aguas. 
+En este proyecto se propone estudiar un dataset que contiene información de monitoreo de agua para diferentes periodos y estaciones a lo largo de la costa del Rio de La Plata. El objetivo es encontrar las interrelaciones entre variables, así como la sensibilidad de las mismas, además de tratar de encontrar posibles patrones relacionados a la estacionalidad y las características de las poblaciones circundantes a la estación monitoreada. Esto puede ser valioso a la hora de tomar decisiones gubernamentales para evitar y penar la contaminación protegiendo así la calidad de nuestras aguas.
+
 El análisis de agua tiene en cuenta aspectos físicos, químicos, microbiológicos y organolépticos. Es importante reconocer que algunos de estos parámetros de control son más costosos de evaluar, tanto en términos de recursos como de tiempo necesario. En este contexto, resulta particularmente interesante explorar las posibles correlaciones entre estas variables utilizando herramientas del aprendizaje supervisado. Este enfoque permitirá no solo comprender las relaciones intrínsecas entre los diversos aspectos del agua, sino también identificar oportunidades para optimizar los recursos, centrándose en la predicción de variables mediante la observación y monitorización de aquellas menos costosas y que incluso en algunos casos pueden ser medidas en tiempo real. 
 
 
 ## DATOS
 El dataset constará de la conjunción de algunos datos públicos del Ministerio de Ambiente y Desarrollo Sostenible (2015-2023). El registro cuenta con información de 42 estaciones, monitoreadas entre una y cuatro veces por año (primavera, verano, otoño. Invierno). Se compilará información del año 2022, año en cual tambien fueron registradas más de 200 sustancias químicas medidas en superficie y en sedimento. A su vez, se anexa información sobre la población, caracteristicas y actividades del municipio al que pertenece el sitio de monitoreo.
+
 En este repositorio puede encontrar los datos originales, descargados de https://ciam.ambiente.gob.ar/repositorio.php?tid=1&stid=2&did=386# y el merge de los mismo. El resultado es el csv con el que trabajaremos "Conexiones_Transparentes.csv". Las features disponibles son las siguientes y sus unidades:
 
 ## Variables principales
@@ -66,6 +68,7 @@ Estas columnas puede contener el valor númerico de la medición correspondiente
    - <LC: Menor al límite de cuantificación.
    - ND: No detectable según metodología empleada
    - D-NC: Detectable no cuantificable según metodología empleada.
+   
 Las variables que terminan en _x pertenecen a superficie, mientras que las que terminan en _y pertenecen a sedimentos.
 Las unidades de las variables son en función de volumen (principalmente litros) para superficie y en función de masa (generalmente kilogramo) para sedimentos. Las mismas se informan por grupo, caso contrario aparece contiguo al nombre de la variable. 
 
