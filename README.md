@@ -12,16 +12,16 @@ El análisis de agua tiene en cuenta aspectos físicos, químicos, microbiológi
 ## DATOS
 El dataset constará de la conjunción de algunos datos públicos del Ministerio de Ambiente y Desarrollo Sostenible (2015-2023). El registro cuenta con información de 42 estaciones, monitoreadas entre una y cuatro veces por año (primavera, verano, otoño. Invierno). Se compilará información del año 2022, año en cual tambien fueron registradas más de 200 sustancias químicas medidas en superficie y en sedimento. A su vez, se anexa información sobre la población, caracteristicas y actividades del municipio al que pertenece el sitio de monitoreo.
 
-En este repositorio puede encontrar los datos originales, descargados de https://ciam.ambiente.gob.ar/repositorio.php?tid=1&stid=2&did=386# y el merge de los mismo. El resultado es el csv con el que trabajaremos "Conexiones_Transparentes.csv". Las features disponibles son las siguientes y sus unidades:
+En este repositorio puede encontrar los datos originales, descargados de https://ciam.ambiente.gob.ar/repositorio.php?tid=1&stid=2&did=386# y el merge de los mismo. El resultado es el csv con el que trabajaremos "Conexiones_Transparentes.csv". Las features disponibles, sus unidades o categorías son las siguientes:
 
 ## Variables principales
 
-* Las columnas 'orden', 'sitio' y 'codigo' se relacionan con las estaciones de monitoreo. El monitoreo abarca de Tigre a Berisso, porque lo que el orden 1 corresponde a estaciones de Tigre mientras que 42 a Berisso. A su vez la columna sitio informa exactamente de que lugar se trata mientra que la última la códifica.
+* Las columnas 'orden', 'sitio' y 'codigo' se relacionan con las estaciones de monitoreo. El monitoreo abarca de Tigre a Berisso, porque lo que el orden 1 corresponde a estaciones de Tigre mientras que 42 a Berisso. A su vez la columna sitio informa exactamente de que lugar se trata, mientras que la última la códifica.
 * campaña: estación del año en que fue monitoreada.
 * tem_agua: temperatura del agua [°C]
 * tem_aire: temperatura del aire [°C]
 * od: óxigeno disuelto [mg/L]
-* pH: potencial hidrogeno escala 1-14
+* pH: potencial hidrogeno - escala 1-14
 * olores: presencia/ausencia
 * color: presencia/ausencia
 * espumas: presencia/ausencia
@@ -48,8 +48,8 @@ En este repositorio puede encontrar los datos originales, descargados de https:/
 * gobierno_local: Municipio al cual pertenece el sitio
 * latitud: del sitio
 * longitud: del sitio
-* Poblacion_partido: Población del partido/municipio
-* Personas_con_cloacas: Personas/población que tienen cloaca
+* Poblacion_partido: Número de personas que pueblan el partido/municipio
+* Personas_con_cloacas: Número de personas/población que tienen cloaca
 * Actividad_principal: que se desarrolla en el municipio (variable categorica)
 
 Las siguientes columnas ordenan al municipio al que pertenece el sitio respecto a la actividad, siendo el que más aporta a dicha actividad el número 1 (variables ordinales).
@@ -61,6 +61,8 @@ Las siguientes columnas ordenan al municipio al que pertenece el sitio respecto 
 * Electricidad, gas y agua
 * Construcción
 * Servicios
+
+Fuente: 2016 | Atlas del Conurbano Bonaerense | Buenos Aires, Argentina | https://www.atlasconurbano.info
 
 ## Sustancias químicas en superficie y sedimentos
 
@@ -92,6 +94,7 @@ Grupos
     - Amonio
     - Nitratos
     - Fenoles_totales
+      
 * Plaguicidas multiresiduo [ng/L]/[µg/kg]
     - 2,4_D
     - 2,4_DB
