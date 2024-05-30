@@ -2,7 +2,7 @@
 
 ## Descripción datos:
 
-El monitoreo de sustancias químicas no comprende toda la costa del Río de la Plata,
+El monitoreo comprende parte de la costa del Río de la Plata,
 abarca la zona costera de los gobiernos entre Tigre y Berisso.
 Se seleccionaron los sitios de muestreo estratégicamente considerando las
 particularidades del territorio, puntos de descarga de aguas residuales, zonas
