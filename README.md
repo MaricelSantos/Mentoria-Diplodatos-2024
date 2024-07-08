@@ -10,7 +10,7 @@ El análisis de agua tiene en cuenta aspectos físicos, químicos, microbiológi
 
 
 ## DATOS
-El dataset constará de la conjunción de algunos datos públicos del Ministerio de Ambiente y Desarrollo Sostenible (2015-2023). El registro cuenta con información de 42 estaciones, monitoreadas entre una y cuatro veces por año (primavera, verano, otoño. Invierno). Se compilará información del año 2022, año en cual tambien fueron registradas más de 200 sustancias químicas medidas en superficie y en sedimento. A su vez, se anexa información sobre la población, caracteristicas y actividades del municipio al que pertenece el sitio de monitoreo.
+El dataset constará de la conjunción de algunos datos públicos del Ministerio de Ambiente y Desarrollo Sostenible (2015-2023). El registro cuenta con información de 42 estaciones, monitoreadas entre una y cuatro veces por año (primavera, verano, otoño, invierno). Se compilará información del año 2022, año en cual tambien fueron registradas más de 200 sustancias químicas medidas en superficie y en sedimento. A su vez, se anexa información sobre la población, caracteristicas y actividades del municipio al que pertenece el sitio de monitoreo.
 
 En este repositorio puede encontrar los datos originales, descargados de https://ciam.ambiente.gob.ar/repositorio.php?tid=1&stid=2&did=386# y el merge de los mismo. El resultado es el csv con el que trabajaremos "Conexiones_Transparentes.csv". Las features disponibles, sus unidades o categorías son las siguientes:
 
